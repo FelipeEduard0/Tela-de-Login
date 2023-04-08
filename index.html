@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Loginscreen</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav id="nav">
+          <span class="logo">Universidade.</span>
+          <ul class="menu" role="menu">
+            <li class="menu-item"><a href="#">Cursos</a></li>
+            <li class="menu-item"><a href="#">Quem somos</a></li>
+            <li class="menu-item"><a href="#">Suporte</a></li>
+          </ul>
+          <a href="#" class="sign-up">Inscrever-se</a>
+          <button
+            aria-label="Abrir Menu"
+            id="btn-mobile"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span id="hamburger"></span>
+          </button>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <div class="text">
+              <h1 class="title">Faça login na sua conta</h1>
+              <h2 class="subtitle">
+                Tenha acesso aos conteúdos extras da universidade, totalmente
+                online com aulas ao vivo e novas edições publicadas a cada
+                semana!
+              </h2>
+            </div>
+            <div class="options">
+              <article class="options-left column">
+                <label for="text">
+                  <input type="text" id="text" placeholder="Nome de Usuário" />
+                </label>
+                <label for="password">
+                  <input
+                    type="number"
+                    id="password"
+                    placeholder="PIN de 8 Digitos"
+                  />
+                </label>
+                <label for="submit">
+                  <input type="submit" id="btn" value="Acessar plataforma" />
+                </label>
+              </article>
+              <article class="options-right column">
+                <figure class="link-login">
+                  <i class="fa-brands fa-google" style="color: #ffffff"></i>
+                  <a href="#">Entrar com Google</a>
+                </figure>
+                <figure class="link-login">
+                  <i class="fa-brands fa-facebook-f" style="color: #ffffff"></i>
+                  <a href="#">Entrar com Facebook</a>
+                </figure>
+                <figure class="link-login">
+                  <i class="fa-brands fa-apple" style="color: #ffffff"></i>
+                  <a href="#">Entrar com Conta Apple</a>
+                </figure>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-space">
+          <a href="#"> Política de Privacidade</a>
+          <a href="#">Powered by Eduardo.</a>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
